@@ -1,12 +1,12 @@
 // NAVIGATION
 export const NAV_LINKS = [
-    { href: '/', key: 'home', label: 'Home' },
-    { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-    { href: '/', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
-    { href: '/', key: 'contact_us', label: 'Contact Us' },
-  ];
-  
+  { href: '/', key: 'home', label: 'Inicio' },
+  { href: '/', key: 'how_hilink_work', label: '¿Cómo Funciona Hilink?' },
+  { href: '/', key: 'services', label: 'Servicios' },
+  { href: '/', key: 'pricing', label: 'Precios' },
+  { href: '/', key: 'contact_us', label: 'Contáctanos' },
+];
+
   // CAMP SECTION
   export const PEOPLE_URL = [
     '/person-1.png',
@@ -15,37 +15,38 @@ export const NAV_LINKS = [
     '/person-4.png',
   ];
   
-  // FEATURES SECTION
-  export const FEATURES = [
-    {
-      title: 'Real maps can be offline',
-      icon: '/map.svg',
-      variant: 'green',
-      description:
-        'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
-    },
-    {
-      title: 'Set an adventure schedule',
-      icon: '/calendar.svg',
-      variant: 'green',
-      description:
-        "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
-    },
-    {
-      title: 'Technology using augment reality',
-      icon: '/tech.svg',
-      variant: 'green',
-      description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
-    },
-    {
-      title: 'Many new locations every month',
-      icon: '/location.svg',
-      variant: 'orange',
-      description:
-        'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
-    },
-  ];
+// ATRACTIVOS TURÍSTICOS DE BOLIVIA
+export const FEATURES = [
+  {
+    title: 'Mapas reales disponibles sin conexión',
+    icon: '/map.svg',
+    variant: 'green',
+    description:
+      'Te brindamos una solución para que puedas disfrutar de nuestra aplicación mientras exploras, incluso con mapas sin necesidad de conexión que podrás usar en cualquier momento, incluso en lugares donde la señal sea débil.',
+  },
+  {
+    title: 'Planifica tus aventuras',
+    icon: '/calendar.svg',
+    variant: 'green',
+    description:
+      'Organiza tus aventuras con amigos. Durante las vacaciones, te ofrecemos muchas ofertas emocionantes en Hilink. Así, no habrá más debates sobre cómo pasar el tiempo libre.',
+  },
+  {
+    title: 'Tecnología de realidad aumentada',
+    icon: '/tech.svg',
+    variant: 'green',
+    description:
+      'Nuestra tecnología hace uso de la realidad aumentada como tu guía en las rutas de senderismo, ya sea en el bosque o en la cima de la montaña. Todo esto es posible con la última tecnología, sin necesidad de una conexión a Internet.',
+  },
+  {
+    title: 'Nuevas ubicaciones cada mes',
+    icon: '/location.svg',
+    variant: 'orange',
+    description:
+      'Cada mes incorporamos nuevas ubicaciones, gracias a nuestra comunidad global de escaladores que comparten sus mejores experiencias en la escalada.',
+  },
+];
+
   
   // FOOTER SECTION
   export const FOOTER_LINKS = [

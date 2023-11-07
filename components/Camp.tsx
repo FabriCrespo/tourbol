@@ -21,7 +21,7 @@ const CampSite = ({
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
-            <Image src="/folded-map.svg" alt="map" width={28} height={28} />
+            <Image src="/folded-map.svg" alt="mapa" width={28} height={28} />
           </div>
           <div className="flex flex-col gap-1">
             <h4 className="bold-18 text-white">{title}</h4>
@@ -36,7 +36,7 @@ const CampSite = ({
                 className="inline-block h-10 w-10 rounded-full"
                 src={url}
                 key={url}
-                alt="person"
+                alt="persona"
                 width={52}
                 height={52}
               />
@@ -57,21 +57,33 @@ export const Camp = () => {
           backgroundImage="bg-bg-img-1"
           title="Toro Toro"
           subtitle="Campamento guiado"
-          peopleJoined="50+ joined"
+          peopleJoined="Más de 50 participantes"
         />
         <CampSite
           backgroundImage="bg-bg-img-1"
           title="Laguna Titicaca"
           subtitle="Campamento guiado"
-          peopleJoined="20+ joined"
+          peopleJoined="Más de 20 participantes"
         />
       </div>
-      <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mg-6">
-        <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5x1 xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3x1">
-          <h2 className="regular-24 md:regular-32 2x1:regular-64 capitalize text-white">
-            <strong>Feeling Lost</strong> And Not Knowing The Way?
+
+      <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
+        <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
+          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
+            <strong>Sintiéndote Perdido</strong> y Sin Saber el Camino?
           </h2>
-          <p></p>
+          <p className="regular-14 xl:regular-16 mt-5 text-white">
+            Comenzando con la ansiedad de los escaladores al visitar una nueva
+            ubicación de escalada, la posibilidad de perderse es muy alta. Por
+            eso estamos aquí para aquellos que quieren comenzar una aventura.
+          </p>
+          <Image
+            src="/quote.svg"
+            alt="camp-2"
+            width={186}
+            height={219}
+            className="camp-quote"
+          />
         </div>
       </div>
     </section>
